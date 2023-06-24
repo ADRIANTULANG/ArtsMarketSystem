@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1062621657328",
+    "project_id": "artmarketsystem",
+    "storage_bucket": "artmarketsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062621657328:android:3b5e94e367ab55e4906a35",
+        "android_client_info": {
+          "package_name": "com.example.ams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062621657328-tqr62t7v3bd45qtgqoi4ijajuscgm5jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ams",
+            "certificate_hash": "0d347fbdb19f797e869b63a92a4aca2a6d12c32b"
+          }
+        },
+        {
+          "client_id": "1062621657328-9ve4sdqm066ih2mlet4ptqrvngiq3abk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-6rie5T3gDuCZ6jeOTvRuimCzkwQ5uPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062621657328-9ve4sdqm066ih2mlet4ptqrvngiq3abk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

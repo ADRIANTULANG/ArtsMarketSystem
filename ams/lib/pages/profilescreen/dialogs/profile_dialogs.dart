@@ -1,0 +1,22 @@
+import 'package:ams/pages/profilescreen/controller/profilescreen_controller.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:sizer/sizer.dart';
+import 'package:syncfusion_flutter_datepicker/datepicker.dart';
+
+class ProfileDialogs {
+  static showDatePicker({required ProfileViewController controller}) {
+    Get.dialog(
+      AlertDialog(
+        content: Container(
+          height: 50.h,
+          width: 100.w,
+          child: SfDateRangePicker(
+            onSelectionChanged: controller.onSelectionChanged,
+            selectionMode: DateRangePickerSelectionMode.single,
+          ),
+        ),
+      ),
+    );
+  }
+}
